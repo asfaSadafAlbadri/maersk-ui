@@ -1,0 +1,139 @@
+.header {
+    max-width: 960px;
+    text-align: center;
+}
+.box {
+    background-color: #6F98A8;
+    height: 190px;
+    
+}
+.container
+{
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #EFEFEF;
+}
+
+.card
+{
+    padding: 10px;
+    display: inline-block;
+	font-size: 14pt;
+	text-align: center;
+	color:black;
+}
+.btn:focus
+{
+    outline: 0;
+}
+.btn:hover {
+    background: #72c3dc;
+}
+.btn
+{
+	background: #72c3dc;
+	padding: 20px 0 20px 0;
+    display:inline-block;
+    width: inherit;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 7px solid #2b8ead;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 13px;
+    margin-bottom: 25px;
+}
+
+.card .value{
+    font-size: 124px;
+    color: white;
+    text-align: center;
+	font-family: monospace;
+}
+.bgColor1 {
+    background-color: #6F98A8;
+}
+.bgColor2 {
+    background-color: #2B8EAD;
+}
+.bgColor3 {
+    background-color: #2F454E;
+}
+.bgColor4 {
+    background-color: #BFBFBF;
+
+}
+.box-section {
+    margin-bottom: 2%;
+}
+@media (max-width:767px)
+{   body {
+        border: solid 10px;
+        color: #000000;
+    }
+    .header {
+        margin-top: 0px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        color: white;
+        background-color: #333333;
+    }
+    .header h3 {
+        margin: 0px;
+    }
+    .container
+    {
+        background-color: white;
+    }
+    #shuffle .card
+    {
+        border-left: 5px solid;
+        background-color: #efefef;
+        height: 35px;
+        margin-bottom: 7px;
+    }
+    .container .btn
+    {
+        min-width: 0px;
+        width: inherit;
+    }
+    .shuffle-btn {
+        float: right;
+    }
+    .sort-btn {
+        float: left;
+    }
+    #shuffle .card .value
+    {
+        color: #10000f;
+        font-size: 15px;
+    }
+    #shuffle .bgColor1
+    {
+        border-left-color: #6F98A8;
+    }
+    #shuffle .bgColor2
+    {
+        border-left-color: #2B8EAD;
+    }
+    #shuffle .bgColor3
+    {
+        border-left-color: #2F454E;
+    }
+    #shuffle .bgColor4
+    {
+        border-left-color: #BFBFBF;
+    }
+}
+footer {
+    font-size: 0.8em;
+    text-align: center;
+    color: #333;
+    padding: 5px;
+    display: block;
+}
